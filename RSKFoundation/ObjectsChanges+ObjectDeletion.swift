@@ -21,7 +21,7 @@ public extension ObjectsChanges {
     // MARK: - Public Structs
     
     /// The type of object that represents a deletion of another object.
-    struct ObjectDeletion<ObjectIdentifierType>: ObjectProtocol, Hashable where ObjectIdentifierType: ObjectIdentifierProtocol {
+    struct ObjectDeletion: Hashable, ObjectProtocol {
         
         // MARK: - Public Properties
         

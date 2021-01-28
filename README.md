@@ -8,7 +8,7 @@ An addition to the Foundation framework. RSKFoundation provides protocols that d
 
 1.  Add the pod `RSKFoundation` to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
 
-        pod 'RSKFoundation', '1.0.0'
+        pod 'RSKFoundation', '1.1.0'
 
 2.  Run `pod install` from Terminal, then open your app's `.xcworkspace` file to launch Xcode.
 

@@ -21,7 +21,7 @@ public extension ObjectsChanges {
     // MARK: - Public Structs
     
     /// The type of object that represents a movement of another object.
-    struct ObjectMovement<ObjectIdentifierType>: ObjectProtocol, Hashable where ObjectIdentifierType: ObjectIdentifierProtocol {
+    struct ObjectMovement: Hashable, ObjectProtocol {
         
         // MARK: - Public Properties
         

@@ -22,16 +22,16 @@ public struct ObjectsChanges<ObjectIdentifierType>: ObjectProtocol where ObjectI
     // MARK: - Public Properties
     
     /// A set of `ObjectDeletion` objects.
-    public let objectDeletions: Set<ObjectDeletion<ObjectIdentifierType>>
+    public let objectDeletions: Set<ObjectDeletion>
     
     /// A set of `ObjectInsertion` objects.
-    public let objectInsertions: Set<ObjectInsertion<ObjectIdentifierType>>
+    public let objectInsertions: Set<ObjectInsertion>
     
     /// A set of `ObjectMovement` objects.
-    public let objectMovements: Set<ObjectMovement<ObjectIdentifierType>>
+    public let objectMovements: Set<ObjectMovement>
     
     /// A set of `ObjectUpdate` objects.
-    public let objectUpdates: Set<ObjectUpdate<ObjectIdentifierType>>
+    public let objectUpdates: Set<ObjectUpdate>
     
     // MARK: - Public Initializers
     
@@ -44,10 +44,10 @@ public struct ObjectsChanges<ObjectIdentifierType>: ObjectProtocol where ObjectI
     ///     - objectMovements: The set of `ObjectMovement` objects.
     ///     - objectUpdates: The set of `ObjectUpdate` objects.
     ///
-    public init(objectDeletions: Set<ObjectDeletion<ObjectIdentifierType>>,
-                objectInsertions: Set<ObjectInsertion<ObjectIdentifierType>>,
-                objectMovements: Set<ObjectMovement<ObjectIdentifierType>>,
-                objectUpdates: Set<ObjectUpdate<ObjectIdentifierType>>) {
+    public init(objectDeletions: Set<ObjectDeletion>,
+                objectInsertions: Set<ObjectInsertion>,
+                objectMovements: Set<ObjectMovement>,
+                objectUpdates: Set<ObjectUpdate>) {
         
         self.objectDeletions = objectDeletions
         self.objectInsertions = objectInsertions

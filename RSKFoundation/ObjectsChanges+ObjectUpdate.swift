@@ -21,7 +21,7 @@ public extension ObjectsChanges {
     // MARK: - Public Structs
     
     /// The type of object that represents an update of another object.
-    struct ObjectUpdate<ObjectIdentifierType>: ObjectProtocol, Hashable where ObjectIdentifierType: ObjectIdentifierProtocol {
+    struct ObjectUpdate: Hashable, ObjectProtocol {
         
         // MARK: - Public Properties
         

@@ -21,7 +21,7 @@ public extension ObjectsChanges {
     // MARK: - Public Structs
     
     /// The type of object that represents an insertion of another object.
-    struct ObjectInsertion<ObjectIdentifierType>: ObjectProtocol, Hashable where ObjectIdentifierType: ObjectIdentifierProtocol {
+    struct ObjectInsertion: Hashable, ObjectProtocol {
         
         // MARK: - Public Properties
         
