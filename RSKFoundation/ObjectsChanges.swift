@@ -17,7 +17,7 @@
 import Foundation
 
 /// The type of object that represents changes to a collection of objects.
-public struct ObjectsChanges<ObjectIdentifierType>: ObjectProtocol where ObjectIdentifierType: ObjectIdentifierProtocol {
+public struct ObjectsChanges<ObjectIdentifierType>: ObjectProtocol where ObjectIdentifierType: Hashable {
     
     // MARK: - Public Properties
     
