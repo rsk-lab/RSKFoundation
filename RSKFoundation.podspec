@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'RSKFoundation'
-  s.version      = '1.2.0'
+  s.version      = '1.3.0'
   s.summary      = 'An addition to the Foundation framework.'
   s.description  = <<-DESC
                    An addition to the Foundation framework. RSKFoundation provides protocols that define the roles of objects, and types of objects that represent changes to a collection of objects.

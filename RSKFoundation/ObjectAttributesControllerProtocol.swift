@@ -1,5 +1,5 @@
 //
-// ObjectFunctionsProtocol.swift
+// ObjectAttributesControllerProtocol.swift
 //
 // Copyright (c) 2021 R.SK Lab Ltd. All Rights Reserved.
 //
@@ -16,5 +16,5 @@
 
 import Foundation
 
-/// The protocol to be adopted by a type of object that represents functions of another object.
-public protocol ObjectFunctionsProtocol: ObjectProtocol {}
+/// The protocol to be adopted by a type of object that represents a controller of attributes of another object.
+public protocol ObjectAttributesControllerProtocol: ObjectControllerProtocol {}

@@ -17,4 +17,4 @@
 import Foundation
 
 /// The protocol to be adopted by a type of object that represents a controller of dependencies of another object.
-public protocol ObjectDependenciesControllerProtocol: ObjectProtocol {}
+public protocol ObjectDependenciesControllerProtocol: ObjectControllerProtocol {}
